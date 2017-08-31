@@ -19,8 +19,8 @@
   * LinkQueue.java 存储已访问过地址和待访问地址
   * MyCrawler.java 主程序，广度遍历
   * Queue.java 用LinkedList实现的队列，用来存储
-* resolve
-  * ParseHtml 解析HTML文档
-  * Seed 获取登陆cookie
+* resolve  
+  * ParseHtml.java 解析HTML文档  
+  * Seed.java 获取登陆cookie
 
 

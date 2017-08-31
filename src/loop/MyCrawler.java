@@ -21,8 +21,7 @@ public class MyCrawler {
 		this.followList = new Follow(seed);
 	}
 	/**
-	 * ¿í¶ÈÓÅÏÈ±éÀú
-	 * @param initialUrl ³õÊ¼ÍøÖ·
+	 * @param initialUrl åˆå§‹ç½‘å€ï¼Œæ³¨æ„ç½‘å€æ ¼å¼è¦ä¸€è‡´
 	 */
 	public void crawling(String initialUrl) {
 		LinkQueue.addUnVisited(initialUrl);

@@ -15,12 +15,12 @@
 **目录结构**
 
 * loop
-  * Follow.java 负责获取请求地址并解析用户数据
-  * LinkQueue.java 存储已访问过地址和待访问地址
-  * MyCrawler.java 主程序，广度遍历
+  * Follow.java 负责获取请求地址并解析用户数据  
+  * LinkQueue.java 存储已访问过地址和待访问地址  
+  * MyCrawler.java 主程序，广度遍历，运行之前需要输入用户名、密码和初始网址  
   * Queue.java 用LinkedList实现的队列，用来存储
 * resolve  
-  * ParseHtml.java 解析HTML文档  
-  * Seed.java 获取登陆cookie
+  * ParseHtml.java 解析HTML文档    
+  * Seed.java 获取登陆cookie，期间需要手动输入验证码，验证码默认存放路径:`E:/Captcha.jpg`
 
 

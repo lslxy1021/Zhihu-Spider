@@ -21,6 +21,7 @@
   * Queue.java 用LinkedList实现的队列，用来存储
 * resolve  
   * ParseHtml.java 解析HTML文档    
-  * Seed.java 获取登陆cookie，期间需要手动输入验证码，验证码默认存放路径:`E:/Captcha.jpg`
-
-
+  * Seed.java 获取登陆cookie，期间需要手动输入验证码，验证码默认存放路径:`E:/Captcha.jpg`  
+  
+**To-Do list**
+- 鉴于知乎下载下来的验证码识别度高，因此通过图片识别算法自动识别出验证码是可行的，免去手工输入的苦恼 

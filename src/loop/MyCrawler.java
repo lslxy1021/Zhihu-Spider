@@ -56,7 +56,8 @@ public class MyCrawler {
 		}
 	}
 	public static void main(String[] args) {
-		MyCrawler crawl = new MyCrawler("13270593908", "87359318a");
-		crawl.crawling("https://www.zhihu.com/people/homeupgrade/following");
+		MyCrawler crawl = new MyCrawler("请输入用户名", "请输入密码");
+		//格式:https://www.zhihu.com/people/url_token/following
+		crawl.crawling("请输入初始访问网址");
 	}
 }
